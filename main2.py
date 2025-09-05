@@ -5,7 +5,7 @@ import os
 pygame.init()
 
 # Definindo o tamanho da janela
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 1300, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Janela com Imagem")
 

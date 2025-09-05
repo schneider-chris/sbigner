@@ -34,7 +34,14 @@ while running:
     keys = pygame.key.get_pressed()
 
     #Movimentação da imagem
-    if keys[pygame.K_LEFT] # PAREI AQUI
+    if keys[pygame.K_LEFT]:
+        img_rect.x -= SPEED # Move para a esquerda
+    if keys[pygame.K_RIGHT]:
+        img_rect.x += SPEED # Move para a direita
+    if keys[pygame.K_UP]:
+        img_rect.y -= SPEED # Move para cima
+    if keys[pygame.K_DOWN]:
+        img_rect.y += SPEED # Move para baixo
 
     # Preencher o fundo 
     screen.fill(BG_COLOR)

@@ -13,7 +13,7 @@ pygame.display.set_caption("SBIGNER")
 BG_COLOR = (30, 30, 40) #cor de fundo (tom da imagem "RGB")
 
 #carregando imagem
-image_file = "toystore.png" #coloque o nome da imagem
+image_file = "player.png" #coloque o nome da imagem
 if os.path.exists(image_file):
     img = pygame.image.load(image_file).convert_alpha() #carregar imagem
     img_rect = img.get_rect(center=(WIDTH // 2, HEIGHT // 2)) #centralizar imagem

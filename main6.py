@@ -13,7 +13,7 @@ pygame.display.set_caption("Mover Imagem com Setas")
 BG_COLOR = (193, 0, 40)  # cor de fundo (um tom escuro)
 
 # Carregar a imagem do personagem principal (jogador)
-image_file = "toystore.png"
+image_file = "player.png"
 if os.path.exists(image_file):
     img = pygame.image.load(image_file).convert_alpha()
     img_rect = img.get_rect(midbottom=(WIDTH // 2, HEIGHT))  # inicia no chão
@@ -178,3 +178,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+

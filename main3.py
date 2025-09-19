@@ -7,7 +7,7 @@ pygame.init()
 # Definindo o tamanho da janela
 WIDTH, HEIGHT = 800, 600
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Mover imagem com setas")
+pygame.display.set_caption("SBIGNER")
 
 # Definindo a cor do fundo
 BG_COLOR = (30, 30, 40) # cor do fundo (uma cor escura)

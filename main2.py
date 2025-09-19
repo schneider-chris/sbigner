@@ -7,7 +7,7 @@ pygame.init()
 # Definindo o tamanho da janela
 WIDTH, HEIGHT = 1300, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Janela com Imagem")
+pygame.display.set_caption("SBIGNER")
 
 # Definindo a cor do fundo
 BG_COLOR = (30, 30, 40) # cor do fundo (uma cor escura)

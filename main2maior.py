@@ -7,7 +7,7 @@ pygame.init()
 # Definindo o tamanho da janela padrão
 WIDTH, HEIGHT = 800, 600  # Tamanho inicial da janela
 screen = pygame.display.set_mode((WIDTH, HEIGHT), pygame.RESIZABLE)  # Janela redimensionável
-pygame.display.set_caption("Janela com Imagem")
+pygame.display.set_caption("SBIGNER")
 
 # Definindo a cor de fundo
 BG_COLOR = (30, 30, 40)  # cor de fundo (um tom escuro)
